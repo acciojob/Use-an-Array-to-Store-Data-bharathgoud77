@@ -1,2 +1,11 @@
-let simpleArray = ['one', 2, 'three', true, false, undefined, null];
-console.log(simpleArray.length);
+describe('arrayContainsString', () => {
+  let myArray;
+
+  beforeEach(() => {
+    myArray = ['apple', 'banana', 'cherry', 'date'];
+  });
+
+  it('should contain string', () => {
+    expect(myArray).toContain('banana');
+  });
+});
