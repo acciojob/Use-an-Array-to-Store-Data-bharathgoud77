@@ -1,2 +1,4 @@
-let yourArray =['Banana',7,true,'Apple',8];
-console.log(yourArray);
+let yourArray = ['thirty', 2000, true, 26, 'name'];
+// code end
+
+module.exports = yourArray
