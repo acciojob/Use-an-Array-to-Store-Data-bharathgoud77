@@ -1,1 +1,2 @@
-let yourArray = ['one', 2, 'three', true, false];
+let yourArray =['Banana',7,true,'Apple',8];
+console.log(yourArray);
